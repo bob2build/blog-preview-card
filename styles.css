@@ -1,0 +1,103 @@
+html, body, main {
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+main {
+    background-color: hsl(47, 88%, 63%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    border: 1px solid black;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 15px;
+    width: 366px;
+    box-shadow: 5px 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+section > * {
+    padding: 15px;
+}
+
+section > div {
+    padding-bottom: 5px;
+}
+
+section > div > img {
+    border-radius: 15px;
+}
+
+p {
+    font-family: 'Figtree';
+    font-size: 16px;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 0px;
+    padding-top: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.header {
+    text-align: center;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    background-color: hsl(47, 88%, 63%);
+    width: 8ch;
+    border-radius: 5px;
+    margin-bottom: 0px;
+    font-weight: 800;
+    font-size: 14px;
+}
+
+.published {
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+article {
+    margin-top: 0px;
+    padding-top: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.article-header {
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.article-content {
+    font-size:16px;
+    font-weight: 200;
+    color: hsl(0, 0%, 50%);
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+footer > img {
+    width: 40px;
+    height: 40px;
+}
+
+.author-name {
+    padding-left: 10px;
+    font-weight: 700;
+}
